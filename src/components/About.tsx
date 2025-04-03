@@ -19,12 +19,12 @@ const About = () => {
   return (
     <div className="flex gap-6 sm:gap-8 flex-col items-center max-w-[589px]">
       <p
-        className={`text-${theme}-headerText text-4xl sm:text-6xl font-semibold`}
+        className={`text-${theme}-headerText text-3xl sm:text-5xl font-semibold`}
       >
         Hi, I am <span className={`text-${theme}-primary`}>Akhil Arjun.</span>
       </p>
       <p
-        className={`text-2xl sm:text-3xl font-semibold text-${theme}-headerText`}
+        className={`text-xl sm:text-2xl font-semibold text-${theme}-headerText`}
       >
         A Full Stack Developer.
       </p>

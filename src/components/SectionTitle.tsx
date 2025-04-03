@@ -4,7 +4,7 @@ const SectionTitle = ({ title }: { title: string }) => {
   const { theme } = useTheme();
   return (
     <p
-      className={`text-${theme}-headerText font-semibold text-2xl sm:text-3xl text-center`}
+      className={`text-${theme}-headerText font-semibold text-xl sm:text-2xl text-center`}
     >
       {title}
     </p>

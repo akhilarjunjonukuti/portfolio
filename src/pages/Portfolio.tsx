@@ -17,7 +17,7 @@ const Portfolio = () => {
     >
       <div className="max-w-[900px] mx-auto my-0 p-[20px] ">
         <NavBar />
-        <div className="flex flex-col gap-14 pt-24 items-center">
+        <div className="flex flex-col gap-14 pt-16 items-center">
           <About />
           <Projects />
           <Skills />

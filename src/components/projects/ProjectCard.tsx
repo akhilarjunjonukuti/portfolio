@@ -14,7 +14,7 @@ const ProjectCard = ({ project }: any) => {
   return (
     <div className="py-6 px-10 flex flex-col gap-3 items-center shadow-[rgba(0,0,0,0.2)_0px_12px_28px_0px,rgba(0,0,0,0.1)_0px_2px_4px_0px,rgba(255,255,255,0.05)_0px_0px_0px_1px_inset] rounded-lg">
       <p
-        className={`text-${theme}-headerText text-xl sm:text-2xl font-semibold`}
+        className={`text-${theme}-headerText text-lg sm:text-xl font-semibold`}
       >
         {name}
       </p>
