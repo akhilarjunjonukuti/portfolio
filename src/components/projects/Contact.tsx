@@ -108,7 +108,7 @@ export const TextField = ({
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { value } = e.target;
-    setContactInfo((prev) => ({ ...prev, [id]: value }));
+    setContactInfo((prev: any) => ({ ...prev, [id]: value }));
   };
   return type !== "textArea" ? (
     <input
